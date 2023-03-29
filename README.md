@@ -18,11 +18,14 @@ The configuration files for the models mentioned in the paper can be found in th
 Before training the models, you need to convert the raw annotation files in train_annotations/ and val_annotations/ to COCO or VOC format. This project uses COCO format data for model training. You can use the following scripts for conversion:
 
 COCO format: 
+
 '''
 python labelme2coco.py ${ANNOTATION_FILENAME} ${OUTPUT_FILENAME} --labels ${CATEGORY_FILE}
 '''
 
-VOC format: 'python labelme2voc.py ${ANNOTATION_FILENAME} ${OUTPUT_FILENAME} --labels ${CATEGORY_FILE}'
+VOC format: 
+
+'python labelme2voc.py ${ANNOTATION_FILENAME} ${OUTPUT_FILENAME} --labels ${CATEGORY_FILE}'
 
 The script cocotomask.py converts the COCO dataset to mask images with pixel values in the range of '[0,num_class-1]':
 'python cocotomask.py ${COCO_DATASET_FILENAME}'
