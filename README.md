@@ -56,7 +56,7 @@ mscan_l.pth is the pre-trained model for SegNeXt, and best_mIoU_iter_160000.pth 
 Google Drive
 
 You can use the example scripts video_demo.py and image_demo.py in the demo directory to perform segmentation on videos or images using SegNeXt. We also provide a sample video 
-https://github.com/zehantan6970/DOS_Dataset/edit/main/contact_4.mp4.
+https://github.com/zehantan6970/DOS_Dataset/blob/main/contact_4.mp4.
 
 ## Notes
 
