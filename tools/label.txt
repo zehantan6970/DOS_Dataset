@@ -1,0 +1,6 @@
+__ignore__
+_background_
+faeces
+socks
+rope
+plastic_bag
