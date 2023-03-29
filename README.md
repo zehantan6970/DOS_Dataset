@@ -9,22 +9,28 @@ Google Drive
 
 **Installation**
 
-To use the dataset, you need to install MMSegmentation and SegNeXt. Please refer to the corresponding repository for installation instructions.
+To use the dataset, you need to install MMSegmentation[https://github.com/open-mmlab/mmsegmentation] and SegNeXt[https://github.com/Visual-Attention-Network/SegNeXt]. Please refer to the corresponding repository for installation instructions.
 The configuration files for the models mentioned in the paper can be found in the dos_config directory.
 
 **Train**
 
 Before training the models, you need to convert the raw annotation files in train_annotations/ and val_annotations/ to COCO or VOC format. This project uses COCO format data for model training. You can use the following scripts for conversion:
+
 COCO format: python labelme2coco.py ${ANNOTATION_FILENAME} ${OUTPUT_FILENAME} --labels ${CATEGORY_FILE}
+
 VOC format: python labelme2voc.py ${ANNOTATION_FILENAME} ${OUTPUT_FILENAME} --labels ${CATEGORY_FILE}
+
 The script cocotomask.py converts the COCO dataset to mask images with pixel values in the range of [0,num_class-1]:
 python cocotomask.py ${COCO_DATASET_FILENAME}
 
 **Statistics**
 
 The script dataset_analysis1.py counts the number of images containing a specific number of instances:
+
 python dataset_analysis1.py ${INPUT_ANNOTATION_DIRECTORY}
+
 The script dataset_analysis2.py provides statistics on image resolution, number of instances, number of instances for each category, and annotation area for each instance:
+
 python dataset_analysis2.py ${COCO_ANNOTATION_JSON_FILENAME}
 
 **Inference**
