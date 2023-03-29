@@ -3,7 +3,6 @@ DOS Dataset is a novel indoor deformable object segmentation dataset for sweepin
 
 Download
 The dataset can be downloaded from:
-Baidu Cloud
 Google Drive
 
 Installation
@@ -25,6 +24,7 @@ python dataset_analysis2.py ${COCO_ANNOTATION_JSON_FILENAME}
 
 Inference
 mscan_l.pth is the pre-trained model for SegNeXt, and best_mIoU_iter_160000.pth is the model trained on DOS Dataset using SegNeXt. They can be downloaded from:
-Baidu Cloud
 Google Drive
 You can use the example scripts video_demo.py and image_demo.py in the demo directory to perform segmentation on videos or images using SegNeXt. We also provide a sample video contact_4.mp4.
+Notes
+For the first submission, only submit the files that need to be added to the https://github.com/open-mmlab/mmsegmentation.
