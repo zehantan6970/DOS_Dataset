@@ -9,7 +9,7 @@ Google Drive
 
 **Installation**
 
-To use the dataset, you need to install MMSegmentation[https://github.com/open-mmlab/mmsegmentation] and SegNeXt[https://github.com/Visual-Attention-Network/SegNeXt]. Please refer to the corresponding repository for installation instructions.
+To use the dataset, you need to install [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) and [SegNeXt](https://github.com/Visual-Attention-Network/SegNeXt). Please refer to the corresponding repository for installation instructions.
 The configuration files for the models mentioned in the paper can be found in the dos_config directory.
 
 **Train**
@@ -41,4 +41,4 @@ You can use the example scripts video_demo.py and image_demo.py in the demo dire
 
 **Notes**
 
-For the first submission, only submit the files that need to be added to the https://github.com/open-mmlab/mmsegmentation.
+For the first submission, only submit the files that need to be added to the [MMSegmentation](https://github.com/open-mmlab/mmsegmentation).
