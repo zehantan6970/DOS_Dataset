@@ -19,7 +19,7 @@ Before training the models, you need to convert the raw annotation files in trai
 
 COCO format: 
 
-'''
+'''python
 python labelme2coco.py ${ANNOTATION_FILENAME} ${OUTPUT_FILENAME} --labels ${CATEGORY_FILE}
 '''
 
