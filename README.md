@@ -17,6 +17,14 @@ The configuration files for the models mentioned in the paper can be found in th
 
 Before training the models, you need to convert the raw annotation files in train_annotations/ and val_annotations/ to COCO or VOC format. This project uses COCO format data for model training. You can use the following scripts for conversion:
 
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install foobar
+```
+
 COCO format: 
 
 '''bash
