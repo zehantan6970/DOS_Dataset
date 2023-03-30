@@ -58,6 +58,12 @@ Google Drive
 You can use the example scripts video_demo.py and image_demo.py in the demo directory to perform segmentation on videos or images using SegNeXt. We also provide a sample video 
 https://github.com/zehantan6970/DOS_Dataset/blob/main/contact_4.mp4.
 
+```HTML
+<video width="320" height="240" controls>
+    <source src="./contact_4.mp4" type="video/mp4">
+</video>
+```
+
 ## Notes
 
 For the first submission, only submit the files that need to be added to the [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) and [SegNeXt](https://github.com/Visual-Attention-Network/SegNeXt).
