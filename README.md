@@ -6,7 +6,7 @@ DOS Dataset is a novel indoor deformable object segmentation dataset for sweepin
 
 The dataset can be downloaded from:
 
-Google Drive
+[Google Drive](https://drive.google.com/drive/folders/18YJEWwEI8jvI69U_tYTQsfqK_bO3Dj1q?usp=sharing)
 
 ## Installation
 
