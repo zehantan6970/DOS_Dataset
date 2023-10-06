@@ -1,6 +1,7 @@
 # DOS Dataset
 
 DOS Dataset is a novel indoor deformable object segmentation dataset for sweeping robots, introduced in the paper "DOS Dataset: A Novel Indoor Deformable Object Segmentation Dataset for Sweeping Robots".
+This dataset defines deformable objects as objects that lack a fixed shape in indoor environments, such as feces, plastic bags, socks, ropes, etc.
 
 ## Download
 
